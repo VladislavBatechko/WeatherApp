@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-weight: 700;
+    font-style: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+input[type="Submit"] {
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-weight: 700;
+    font-style: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.city_temp,
+.now_city_temp,
+.notification {
+    text-align: center;
+}
+
+.name,
+.desc,
+.temp,
+.wind {
+    margin-bottom: 10px;
+}
+
+.nameNow,
+.descNow,
+.tempNow,
+.windNow {
+    margin-bottom: 10px;
+}
+
+.cours {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
