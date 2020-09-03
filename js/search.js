@@ -4,10 +4,12 @@ let desc = document.querySelector('.desc');
 let temp = document.querySelector('.temp');
 let wind = document.querySelector('.wind');
 let inputValue = document.querySelector('.inputValue');
+
 button.addEventListener('click', function() {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + inputValue.value + '&appid=8ed307bae80f252b06143842c1af3f3e')
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             let nameValue = data['name'];
             let tempValue = data['main']['temp'];
             tempValue = tempValue.toFixed() - 273;
