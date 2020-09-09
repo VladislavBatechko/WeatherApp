@@ -61,3 +61,9 @@ input[type="Submit"] {
     height: 200px;
     border: 1px solid red;
 }
+
+.back {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+}

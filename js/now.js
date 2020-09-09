@@ -30,7 +30,6 @@ function getWeather(latitude, longitude) {
         )
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
             let nameNowValue = data["name"]
             let tempNowValue = data["main"]["temp"]
             tempNowValue = tempNowValue.toFixed() - 273
